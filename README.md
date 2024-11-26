@@ -1,6 +1,7 @@
 # terraform-tryout
 
-A quick tryout to make terraform create resources locally using localstack.
+A quick tryout to make terraform create resources locally using localstack:
+This script will create an S3 bucket as a proof of concept
 
 Requirement are:
 ----------------
@@ -25,3 +26,8 @@ Run it by:
 ```bash
   tflocal apply
 ```
+
+References:
+-----------
+- https://developer.hashicorp.com/terraform/install
+- https://docs.localstack.cloud/user-guide/integrations/terraform/
